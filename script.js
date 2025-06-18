@@ -216,11 +216,11 @@ Complete the exercise in the space below:
 function calculateGrade(num) {
     if(num >= 90) {
         return "A";
-    } else if(80 <= num <= 89) {
+    } else if(num >= 80 && num <=89) {
         return "B";
-    } else if(70 <= num <= 79) {
+    } else if(num >= 70 && num <=79) {
         return "C";
-    } else if(60 <= num <= 69) {
+    } else if(num >= 60 && num <= 69) {
         return "D";
     } else if(num < 60) {
         return "F";
